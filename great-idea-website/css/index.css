@@ -174,7 +174,7 @@
         position: fixed;
         margin: 10px;
         background-color: darkblue;
-        z-index: 999;
+        z-index: 998;
     }
     
     nav {
