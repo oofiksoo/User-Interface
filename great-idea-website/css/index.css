@@ -170,9 +170,17 @@
         margin: 0px 50px;
     }
     
+    .navbar {
+        position: fixed;
+        margin: 10px;
+        background-color: blue;
+        z-index: 999;
+    }
+    
     nav {
         display: inline-block;
         margin: 20px;
+        color: white;
     }
     
     nav a {
@@ -188,13 +196,16 @@
     
     .logo {
         display: inline-block;
-        margin: 5px 0px;
+        position: abosolute;
+        right: 40px;
+        top: 50px;
     }
     
     .content1 {
         display: inline-block;
         margin: 10px;
         width: 48%;
+        padding: 20px 0px;
     }
     
     .content1 h1 {
@@ -227,7 +238,7 @@
         display: inline-block;
         position: relative;
         left: 50px;
-        top: 30px;
+        top: 50px;
     }
     
     .features {
