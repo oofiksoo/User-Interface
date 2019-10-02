@@ -173,7 +173,7 @@
     .navbar {
         position: fixed;
         margin: 10px;
-        background-color: blue;
+        background-color: darkblue;
         z-index: 999;
     }
     
